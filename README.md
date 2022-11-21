@@ -1,5 +1,8 @@
-# Antibody Language Models
+# Evolution-aware Antibody Language Model (EATLM)
 
+Code for paper: On Pre-trained Language Models For Antibody.
+
+The AnTibody Understanding Evaluation (ATUE) is released on [zenodo](https://zenodo.org/record/7340488#.Y3sf4uxBxhE).
 
 Our implementation is based on [ParaGen](https://github.com/bytedance/ParaGen). 
 To install ParaGen from source:
@@ -8,9 +11,9 @@ To install ParaGen from source:
 cd ParaGen
 pip install -e .
 ``` 
-More information can be found in the official repo. 
+More information can be found in the [official repo](https://github.com/bytedance/ParaGen). 
 
-We put the source code under the *examples/antibody* directory. It contains the modified [**AbLang**](https://github.com/oxpig/AbLang) and [**ESM**](https://github.com/facebookresearch/esm) to fit this framework. Some of our code was borrowed from them. Thanks for their great work!
+We put the source code under the *antibody* directory. It contains the modified [**AbLang**](https://github.com/oxpig/AbLang) and [**ESM**](https://github.com/facebookresearch/esm) to fit this framework. Some of our code was borrowed from them. Thanks for their great work!
 
 
 The file organization is as follows:
