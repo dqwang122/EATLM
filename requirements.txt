@@ -1,0 +1,16 @@
+torch
+transformers
+tqdm
+sacremoses
+sacrebleu
+sentencepiece
+fastBPE
+scipy
+scikit-learn
+mosestokenizer
+nltk
+pyyaml
+numpy
+more-itertools
+tabulate
+rouge
