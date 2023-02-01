@@ -12,9 +12,7 @@ task:
   num_germline: 1
   tokenizer:
     class: Vocabulary
-    path: data/vocab
-    bos_token: <s>
-    eos_token: </s>
+    path: antibody/vocab
     no_special_symbols: False
   dataloader:
     train:

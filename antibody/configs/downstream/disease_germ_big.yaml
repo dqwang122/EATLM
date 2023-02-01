@@ -10,10 +10,7 @@ task:
   requires_tokenize: True
   tokenizer:
     class: Vocabulary
-    path: data/vocab
-    # path: data/vocab
-    bos_token: <s>
-    eos_token: </s>
+    path: antibody/vocab
     no_special_symbols: False
   dataloader:
     train:
